@@ -23,7 +23,7 @@ dependencies = [
 
 [[package]]
 name = "graphlink"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "graphlink-macros",
  "slotmap",
@@ -31,7 +31,7 @@ dependencies = [
 
 [[package]]
 name = "graphlink-macros"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "Inflector",
  "proc-macro2",

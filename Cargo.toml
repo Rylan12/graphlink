@@ -3,7 +3,7 @@ resolver = "3"
 members = ["graphlink", "graphlink-macros"]
 
 [workspace.package]
-version = "0.1.0"
+version = "1.0.0"
 authors = ["Rylan Polster <rslpolster@gmail.com>"]
 edition = "2024"
 readme = "README.md"
@@ -14,7 +14,7 @@ categories = ["database-implementations", "data-structures"]
 exclude = [".github/", ".gitignore"]
 
 [workspace.dependencies]
-graphlink-macros = { version = "0.1.0", path = "graphlink-macros" }
+graphlink-macros = { version = "1.0.0", path = "graphlink-macros" }
 Inflector = "0.11.4"
 proc-macro2 = "1.0.106"
 quote = "1.0.45"
