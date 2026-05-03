@@ -108,7 +108,7 @@ impl ModelDef {
     ///
     /// The following are valid `belongs_to` definitions:
     ///
-    /// ```
+    /// ```text
     /// belongs_to ParentModel;
     /// belongs_to ParentModel (on_delete = cascade);
     /// belongs_to ParentModel (on_delete = restrict);
@@ -144,7 +144,7 @@ impl ModelDef {
     ///
     /// The following are valid `has_many` definitions:
     ///
-    /// ```
+    /// ```text
     /// has_many ChildModel;
     /// has_many ChildModel through JoinModel;
     /// ```
@@ -169,7 +169,7 @@ impl ModelDef {
     ///
     /// The following is a valid `index` definition:
     ///
-    /// ```
+    /// ```text
     /// index unique field_name;
     /// ```
     fn parse_index_field(content: ParseStream) -> syn::Result<ModelField> {

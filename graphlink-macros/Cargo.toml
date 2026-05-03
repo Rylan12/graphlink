@@ -13,8 +13,11 @@ categories.workspace = true
 exclude.workspace = true
 
 [lib]
+doctest = false
 proc-macro = true
 
 [dependencies]
+Inflector = { workspace = true }
+proc-macro2 = { workspace = true }
 quote = { workspace = true }
 syn = { workspace = true }
