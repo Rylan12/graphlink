@@ -1,11 +1,20 @@
 [package]
 name = "graphlink-macros"
-version = "0.1.0"
-edition = "2024"
+description = "Procedural macros for the graphlink crate."
+
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+readme.workspace = true
+repository.workspace = true
+license.workspace = true
+keywords.workspace = true
+categories.workspace = true
+exclude.workspace = true
 
 [lib]
 proc-macro = true
 
 [dependencies]
-quote = "1.0.45"
-syn = { version = "2.0.117", features = ["full"] }
+quote = { workspace = true }
+syn = { workspace = true }

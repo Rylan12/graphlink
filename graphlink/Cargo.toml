@@ -1,8 +1,17 @@
 [package]
 name = "graphlink"
-version = "0.1.0"
-edition = "2024"
+description = "A memory-safe, relational in-memory graph database."
+
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+readme.workspace = true
+repository.workspace = true
+license.workspace = true
+keywords.workspace = true
+categories.workspace = true
+exclude.workspace = true
 
 [dependencies]
-graphlink-macros = { version = "0.1.0", path = "../graphlink-macros" }
-slotmap = "1.1.1"
+graphlink-macros = { workspace = true}
+slotmap = { workspace = true }

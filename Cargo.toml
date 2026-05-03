@@ -1,3 +1,20 @@
 [workspace]
 resolver = "3"
 members = ["graphlink", "graphlink-macros"]
+
+[workspace.package]
+version = "0.1.0"
+authors = ["Rylan Polster <rslpolster@gmail.com>"]
+edition = "2024"
+readme = "README.md"
+repository = "https://github.com/Rylan12/graphlink"
+license = "MIT"
+keywords = ["database", "graph", "in-memory", "relational", "orm"]
+categories = ["database-implementations", "data-structures"]
+exclude = [".github/", ".gitignore"]
+
+[workspace.dependencies]
+graphlink-macros = { version = "0.1.0", path = "graphlink-macros" }
+quote = "1.0.45"
+slotmap = "1.1.1"
+syn = { version = "2.0.117", features = ["full"] }
