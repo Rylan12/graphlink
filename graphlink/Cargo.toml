@@ -1,0 +1,8 @@
+[package]
+name = "graphlink"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+graphlink-macros = { version = "0.1.0", path = "../graphlink-macros" }
+slotmap = "1.1.1"
